@@ -156,7 +156,7 @@ constitutes the entire agreement between you and Licensor regarding the
 Software and supersedes all prior or contemporaneous agreements,
 proposals, or representations, whether oral or written. Licensor may
 update this Agreement from time to time by posting a revised version at
-https://threatstrike-web.vercel.app/terms; the revised Agreement will
+https://www.threatstrike.ai/eula.html; the revised Agreement will
 apply to any new version of the Software you install or use after the
 update.
 

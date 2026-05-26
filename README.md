@@ -8,7 +8,7 @@ flag exposed as a field. `nmap`, `ffuf`, `hydra`, `evil-winrm`, `impacket`,
 objective to the built-in AI agent and let it drive. Same binaries either way.
 Same flags. Same output. Just no terminal.
 
-> 🌐 **Website:** https://threatstrike-web.vercel.app
+> 🌐 **Website:** https://www.threatstrike.ai
 > 💳 **Get the app:** _(launching soon)_
 > 📧 **Contact:** security@threatstrike.ai
 
@@ -50,7 +50,7 @@ nowhere else.
 
 ## Get it
 
-- The launch landing page is at **https://threatstrike-web.vercel.app**.
+- The launch landing page is at **https://www.threatstrike.ai**.
 - A purchase link will be added here when v1 is live.
 - Drop your email on the website to be notified the day it ships.
 
