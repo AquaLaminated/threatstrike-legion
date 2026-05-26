@@ -1,5 +1,8 @@
 ThreatStrike Legion — License Summary
 Copyright (c) 2026 ThreatStrike. All rights reserved.
+<!-- LICENSOR-NAME: replace "ThreatStrike" everywhere in this file and EULA.md
+     when an entity is formed (e.g., "ThreatStrike LLC"). One grep-and-replace
+     is all that's needed. -->
 
 ThreatStrike Legion is proprietary commercial software. Source code is NOT
 distributed with this repository, with the compiled binary, or anywhere else.
@@ -8,6 +11,14 @@ You may install and use one (1) copy of the official binary distribution on
 devices you personally own and control, subject to the End User License
 Agreement (the "EULA") in EULA.md of this repository (also available at
 https://www.threatstrike.ai/eula.html).
+
+AI FEATURES: The Software supports four AI engine modes — Claude (via
+the Claude Code CLI or an Anthropic API key), OpenAI / ChatGPT, Google
+Gemini, and any local OpenAI-compatible endpoint (Ollama, LM Studio,
+vLLM, llama.cpp). When you select a cloud provider, your engagement
+context (target hostnames, command output, prompt text, finding
+summaries) is transmitted to that provider. See EULA §6 for the full
+disclosure and links to each provider's terms.
 
 You may not, in whole or in part:
   - copy, redistribute, sublicense, sell, rent, or lease the software;

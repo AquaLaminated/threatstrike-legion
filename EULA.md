@@ -53,6 +53,28 @@ and warrant, on each occasion you use the Software, that:
 (c) you are at least 18 years old (or the age of majority where you live)
     and have the legal capacity to enter into this Agreement.
 
+Some categories of tooling bundled with or invoked by the Software carry
+additional category-specific legal risk that you acknowledge and accept
+by using them:
+
+(i)   **Wireless capture tools** (for example, aircrack-ng, airodump-ng,
+      hcxdumptool, wifite, bettercap, bluetoothctl) can intercept wireless
+      transmissions you are not a party to. In many jurisdictions this
+      engages wiretap or interception statutes (in the United States,
+      18 U.S.C. § 2511) regardless of whether the captured traffic is
+      encrypted. Use these tools only on networks you own or are
+      explicitly authorized to test.
+(ii)  **Digital-forensics tools** (for example, volatility3, sleuthkit,
+      plaso, chainsaw, hayabusa) may operate on data that, if later
+      introduced in legal proceedings, must satisfy chain-of-custody,
+      integrity, and admissibility requirements. Licensor makes no
+      representation that the Software's handling of artifacts satisfies
+      any such requirements; you are responsible for your forensic
+      process and documentation.
+(iii) **Exploitation frameworks and offensive payloads** (for example,
+      metasploit, impacket, evil-winrm, sqlmap) may be subject to export
+      controls under U.S. or other regulations. See §11 (Export Controls).
+
 ## 4. Ownership
 
 The Software is licensed, not sold. Licensor and its licensors retain all
@@ -63,21 +85,70 @@ ownership rights in the Software.
 ## 5. Third-party components
 
 The Software may include or depend on third-party open-source software
-("Third-Party Components"), and may invoke third-party command-line tools
-that you install separately (e.g., nmap, ffuf, hydra, volatility3). Use
-of Third-Party Components is governed by the terms of their respective
-licenses, which are available with the Software or upon request. Licensor
-is not responsible for the operation or terms of any third-party tool
-invoked by the Software.
+("Third-Party Components"), and may invoke third-party command-line
+tools that you install separately, including but not limited to: network
+scanners (for example nmap, masscan, rustscan); web reconnaissance and
+fuzzers (for example ffuf, gobuster, nuclei, wpscan, sqlmap); authentication
+and password tools (for example hydra, hashcat, john, crackmapexec,
+evil-winrm, impacket, smbmap, smbclient); wireless capture tools (for
+example aircrack-ng, airodump-ng, hcxdumptool, wifite, bettercap,
+bluetoothctl); digital-forensics and incident-response tools (for example
+volatility3, sleuthkit, plaso, chainsaw, hayabusa); network defense and
+analysis tools (for example suricata, zeek, tshark); and malware-analysis
+tools (for example clamscan, yara, capa, floss, ssdeep, exiftool); and
+many others installed at your direction.
 
-## 6. AI services
+Use of Third-Party Components is governed by the terms of their respective
+licenses, which are available with each tool or upon request. You are
+solely responsible for installing, configuring, and using each tool in
+compliance with its license and with all applicable laws. Licensor is not
+responsible for the operation, output, or terms of any third-party tool
+invoked by the Software, including any tool installed via the Software's
+in-app installer.
 
-The Software may communicate with third-party AI services (for example,
-Anthropic Claude, OpenAI, or Google Gemini) at your direction and using
-credentials you provide. Licensor is not responsible for the availability,
-content, accuracy, latency, cost, or terms of any such third-party
-services. Your use of those services is governed by their own terms and
-privacy policies, and you are responsible for any fees they charge.
+## 6. AI services and data egress
+
+The Software supports four AI engine modes, selected by you in Settings.
+The choice you make determines what data leaves your device:
+
+- **Claude** (via the Claude Code CLI or an Anthropic API key) — governed
+  by Anthropic's Usage Policy
+  (https://www.anthropic.com/legal/aup) and Consumer / Commercial Terms
+  (https://www.anthropic.com/legal).
+- **OpenAI / ChatGPT** (via an OpenAI API key) — governed by OpenAI's
+  Terms of Use (https://openai.com/policies/terms-of-use/) and Usage
+  Policies (https://openai.com/policies/usage-policies/).
+- **Google Gemini** (via a Google AI Studio API key, using Google's
+  OpenAI-compatible endpoint) — governed by Google's Generative AI Terms
+  (https://policies.google.com/terms/generative-ai) and the Gemini API
+  Additional Terms (https://ai.google.dev/gemini-api/terms).
+- **Local LLM** (via any OpenAI-compatible endpoint you point the
+  Software at, including Ollama, LM Studio, vLLM, or llama.cpp) —
+  governed by the terms of whichever software and model you have
+  installed locally (for example, https://ollama.com/legal/terms). When
+  using a local model, no data leaves your device through the Software.
+
+WHEN YOU SELECT A CLOUD AI ENGINE (Claude API, Claude CLI, OpenAI, or
+Gemini), the Software transmits your engagement context to that provider
+on each request. This may include: target hostnames, IP addresses,
+service banners, command output, tool findings, and the text of any
+prompt you send. Credentials stored in the OS keychain are not sent to
+AI providers automatically, but their plaintext may appear in command
+output that is sent. If your engagement scope or contract prohibits
+sending engagement data to a third-party processor, choose the Local
+LLM engine.
+
+AI output is non-deterministic and may be incomplete, incorrect, or
+fabricated ("hallucinated"). The Software's AI agent may misclassify
+findings, miss vulnerabilities, suggest commands that fail or have
+unintended effects, or generate report text that is factually wrong. You
+must independently verify any AI-generated finding, command, or report
+section before relying on it for any compliance, remediation,
+notification, legal, or contractual purpose. Licensor disclaims all
+responsibility for AI output content and for any third-party AI
+service's availability, accuracy, latency, cost, billing, terms, or
+data-handling practices. You are responsible for any fees a third-party
+AI provider charges.
 
 ## 7. Warranty disclaimer
 
