@@ -2,7 +2,9 @@
 
 **Pentest tools that don't live in a terminal.**
 
-![ThreatStrike Legion — AI Operator running a TryHackMe box end-to-end](./legion-operator.png)
+[![Watch the ThreatStrike Legion demo on YouTube](https://img.youtube.com/vi/Drv3OSPWdm4/maxresdefault.jpg)](https://youtu.be/Drv3OSPWdm4)
+
+▶ **[Watch the demo](https://youtu.be/Drv3OSPWdm4)** — Legion solving a TryHackMe box end-to-end.
 
 Every tool you'd reach for on a Kali box, sitting in a real window with every
 flag exposed as a field. `nmap`, `ffuf`, `hydra`, `evil-winrm`, `impacket`,
