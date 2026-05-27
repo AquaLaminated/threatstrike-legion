@@ -25,9 +25,9 @@ nowhere else.
 
 ## What's in it
 
-- **A GUI for the Kali toolset.** 45+ tools so far, each one a real form
-  with the real flags exposed. Bundled wordlists, interface dropdowns, file
-  pickers, the works.
+- **A GUI for the Kali toolset.** 62 tools so far ([full list](./TOOLS.md)),
+  each one a real form with the real flags exposed. Bundled wordlists,
+  interface dropdowns, file pickers, the works.
 - **An optional AI agent.** Type the objective in plain English; the agent
   drives the same forms autonomously. Recently solved a TryHackMe-style box
   recon-to-root in 15 minutes, unattended.
