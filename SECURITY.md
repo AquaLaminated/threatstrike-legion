@@ -31,7 +31,6 @@ disclosure before a fix is shipped puts other users at risk.
 
 In scope:
 - The shipped ThreatStrike Legion binary (current and one previous version).
-- The marketing website at https://threatstrike-web.vercel.app.
 
 Out of scope:
 - Third-party tools the app invokes (`nmap`, `ffuf`, `hydra`, etc.) — report
