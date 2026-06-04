@@ -126,6 +126,10 @@ tool forms (ffuf, gobuster, hashcat, john, hydra, and more):
 - **users-top-shortlist.txt** - Top usernames (shortlist)
 - **pass-common.txt** - Common passwords
 
+### Plus the full Kali wordlist set (one click)
+
+The Tool Status page has a one-click **Kali Wordlists** download that pulls the entire SecLists collection (over **6,000 wordlists** covering web content, DNS, usernames, passwords, fuzzing, and more) plus **rockyou.txt** (about 14.3 million passwords), roughly 1 GB total. Once downloaded, every tool form and the AI agent can use them automatically.
+
 ---
 
 **More coming soon. Email security@threatstrike.ai to request one.**

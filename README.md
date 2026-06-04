@@ -11,7 +11,7 @@ objective to the built-in AI agent and let it drive. Same binaries either way.
 Same flags. Same output. Just no terminal.
 
 > 🌐 **Website:** https://www.threatstrike.ai
-> 💳 **Get the app:** _(launching soon)_
+> 💳 **Get the app:** https://www.threatstrike.ai/pricing
 > 📧 **Contact:** security@threatstrike.ai
 
 ---
@@ -52,9 +52,9 @@ nowhere else.
 
 ## Get it
 
-- The launch landing page is at **https://www.threatstrike.ai**.
-- A purchase link will be added here when v1 is live.
-- Drop your email on the website to be notified the day it ships.
+- **Download free (3-day trial):** [www.threatstrike.ai/pricing](https://www.threatstrike.ai/pricing), or grab the [latest release](https://github.com/AquaLaminated/threatstrike-legion/releases/latest) directly (macOS Apple Silicon + Intel, Linux `.deb` / `.AppImage` / `.rpm`).
+- **Buy a license:** $79.99 one-time, by card (Visa, Mastercard, Amex, Discover, Apple Pay, Google Pay) or crypto (BTC, XMR, LTC, ETH). Your key is emailed instantly and activates on up to 3 devices.
+- No subscription, no accounts, no telemetry. The engagement data never leaves your machine.
 
 ## Requirements
 
@@ -68,8 +68,7 @@ nowhere else.
 
 ## Status
 
-Pre-launch as of late May 2026. v0.2.0 is feature-complete. Watch this repo
-or drop your email on the website for the launch announcement.
+v0.2.0 is live. macOS and Linux installers are on the [releases page](https://github.com/AquaLaminated/threatstrike-legion/releases/latest), and the in-app updater ships new versions from there automatically.
 
 ## Reporting bugs / requesting features
 
