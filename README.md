@@ -2,10 +2,6 @@
 
 **Pentest tools that don't live in a terminal.**
 
-[![Watch the ThreatStrike Legion demo on YouTube](https://img.youtube.com/vi/Drv3OSPWdm4/maxresdefault.jpg)](https://youtu.be/Drv3OSPWdm4)
-
-▶ **[Watch the demo](https://youtu.be/Drv3OSPWdm4)** — Legion solving a TryHackMe box end-to-end.
-
 Every tool you'd reach for on a Kali box, sitting in a real window with every
 flag exposed as a field. `nmap`, `ffuf`, `hydra`, `evil-winrm`, `impacket`,
 `volatility3`, 62 more. Run them by hand the way you always have, or hand an
