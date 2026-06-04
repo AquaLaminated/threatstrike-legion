@@ -33,9 +33,9 @@ In scope:
 - The shipped ThreatStrike Legion binary (current and one previous version).
 
 Out of scope:
-- Third-party tools the app invokes (`nmap`, `ffuf`, `hydra`, etc.) — report
+- Third-party tools the app invokes (`nmap`, `ffuf`, `hydra`, etc.) - report
   those upstream.
-- Third-party AI providers (Anthropic, OpenAI, Google) — report to them.
+- Third-party AI providers (Anthropic, OpenAI, Google) - report to them.
 - Issues that require an attacker to already have local root on the user's
   machine.
 

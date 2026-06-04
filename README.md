@@ -2,7 +2,7 @@
 
 **Pentest tools that don't live in a terminal.**
 
-![ThreatStrike Legion — engagement overview](./gallery/01-overview.png)
+![ThreatStrike Legion - engagement overview](./gallery/01-overview.png)
 
 Every tool you'd reach for on a Kali box, sitting in a real window with every
 flag exposed as a field. `nmap`, `ffuf`, `hydra`, `evil-winrm`, `impacket`,
@@ -75,7 +75,7 @@ or drop your email on the website for the launch announcement.
 
 Use the **Issues** tab on this repository.
 
-For security vulnerabilities please follow [SECURITY.md](./SECURITY.md) — don't
+For security vulnerabilities please follow [SECURITY.md](./SECURITY.md) - don't
 open a public issue.
 
 ## Source code

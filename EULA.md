@@ -1,4 +1,4 @@
-# ThreatStrike Legion — End User License Agreement
+# ThreatStrike Legion - End User License Agreement
 
 **Effective date:** 2026-05-26
 **Licensor:** ThreatStrike ("Licensor")
@@ -111,19 +111,19 @@ in-app installer.
 The Software supports four AI engine modes, selected by you in Settings.
 The choice you make determines what data leaves your device:
 
-- **Claude** (via the Claude Code CLI or an Anthropic API key) — governed
+- **Claude** (via the Claude Code CLI or an Anthropic API key) - governed
   by Anthropic's Usage Policy
   (https://www.anthropic.com/legal/aup) and Consumer / Commercial Terms
   (https://www.anthropic.com/legal).
-- **OpenAI / ChatGPT** (via an OpenAI API key) — governed by OpenAI's
+- **OpenAI / ChatGPT** (via an OpenAI API key) - governed by OpenAI's
   Terms of Use (https://openai.com/policies/terms-of-use/) and Usage
   Policies (https://openai.com/policies/usage-policies/).
 - **Google Gemini** (via a Google AI Studio API key, using Google's
-  OpenAI-compatible endpoint) — governed by Google's Generative AI Terms
+  OpenAI-compatible endpoint) - governed by Google's Generative AI Terms
   (https://policies.google.com/terms/generative-ai) and the Gemini API
   Additional Terms (https://ai.google.dev/gemini-api/terms).
 - **Local LLM** (via any OpenAI-compatible endpoint you point the
-  Software at, including Ollama, LM Studio, vLLM, or llama.cpp) —
+  Software at, including Ollama, LM Studio, vLLM, or llama.cpp) -
   governed by the terms of whichever software and model you have
   installed locally (for example, https://ollama.com/legal/terms). When
   using a local model, no data leaves your device through the Software.
