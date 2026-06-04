@@ -6,7 +6,7 @@
 
 Every tool you'd reach for on a Kali box, sitting in a real window with every
 flag exposed as a field. `nmap`, `ffuf`, `hydra`, `evil-winrm`, `impacket`,
-`volatility3`, 62 more. Run them by hand the way you always have, or hand an
+`volatility3`, 66 more. Run them by hand the way you always have, or hand an
 objective to the built-in AI agent and let it drive. Same binaries either way.
 Same flags. Same output. Just no terminal.
 
@@ -25,7 +25,7 @@ nowhere else.
 
 ## What's in it
 
-- **A GUI for the Kali toolset.** 62 tools so far ([full list](./TOOLS.md)),
+- **A GUI for the Kali toolset.** 72 tools so far ([full list](./TOOLS.md)),
   each one a real form with the real flags exposed. Bundled wordlists,
   interface dropdowns, file pickers, the works.
 - **An optional AI agent.** Type the objective in plain English; the agent
