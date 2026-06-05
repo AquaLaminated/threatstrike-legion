@@ -1,12 +1,12 @@
 # ThreatStrike Legion - Full Tool List
 
-72 tools across 14 categories (57 offensive, 15 defensive), every one a real
+86 tools across 15 categories (69 offensive, 17 defensive), every one a real
 form with the real flags exposed. Install any of them with one click from the
 in-app Tool Status page.
 
 ---
 
-## Red Team (57)
+## Red Team (69)
 
 ### Recon & OSINT (11)
 - **subfinder** - Subdomain discovery
@@ -21,7 +21,7 @@ in-app Tool Status page.
 - **metagoofil** - Document metadata harvester
 - **wafw00f** - WAF fingerprinting
 
-### Web Recon (9)
+### Web Recon (13)
 - **httpx** - Fast HTTP probing
 - **katana** - Web crawler
 - **gau** - Historical URL fetch (getallurls)
@@ -31,8 +31,12 @@ in-app Tool Status page.
 - **whatweb** - Web fingerprinting
 - **wpscan** - WordPress vulnerability scanner
 - **nikto** - Web server scanner
+- **dnsx** - DNS toolkit (resolve, brute, wildcard filtering)
+- **gowitness** - Web screenshot and reporting
+- **kiterunner** - API route discovery and content scanning
+- **XSStrike** - Advanced XSS detection and exploitation
 
-### Vuln Scanning (10)
+### Vuln Scanning (11)
 - **nuclei** - Template-based vulnerability scanner
 - **sqlmap** - SQL injection
 - **dalfox** - XSS scanner
@@ -42,12 +46,14 @@ in-app Tool Status page.
 - **jwt_tool** - Analyze, tamper, forge and crack JWTs
 - **trivy** - CVE / misconfig / secret scanner
 - **gitleaks** - Hardcoded-secret detection
+- **trufflehog** - Secrets scanning across git history and filesystems
 - **searchsploit** - Exploit-DB search
 
-### Network (6)
+### Network (7)
 - **nmap** - Network and service scanner
 - **rustscan** - Fast port scanner
 - **masscan** - Mass port scanner
+- **naabu** - Fast port scanner with service discovery
 - **netdiscover** - ARP discovery (Linux only)
 - **enum4linux** - SMB enumeration
 - **smbmap** - SMB share enumeration
@@ -59,11 +65,14 @@ in-app Tool Status page.
 - **cewl** - Wordlist generator from web content
 - **crunch** - Wordlist builder
 
-### Post Exploitation (4)
+### Post Exploitation (7)
 - **impacket** - Windows / AD attack suite
 - **nxc / crackmapexec** - AD swiss-army knife (NetExec)
 - **evil-winrm** - WinRM shell
 - **smbclient** - SMB client
+- **chisel** - Fast TCP/UDP tunnel over HTTP
+- **ligolo-ng** - Advanced tunneling / pivoting
+- **Payloads** - Downloader for linpeas, winpeas, and pspy
 
 ### Exploitation (1)
 - **metasploit** - Exploitation framework (full GUI: module browser, workspace, host detail, sessions, console)
@@ -85,20 +94,27 @@ in-app Tool Status page.
 - **bettercap** - Wi-Fi and BLE recon / MITM swiss-army
 - **bluetoothctl** - Bluetooth scan and pair (Linux only)
 
+### Cloud (3)
+- **CloudFox** - AWS / Azure / GCP attack-surface enumeration
+- **Prowler** - Cloud security posture and compliance auditing
+- **ScoutSuite** - Multi-cloud misconfiguration assessment
+
 ---
 
-## Blue Team (15)
+## Blue Team (17)
 
 ### DFIR (3)
 - **volatility3** - Memory forensics
 - **sleuthkit** (fls) - Disk filesystem walk
 - **log2timeline.py** (plaso) - Forensic timeline construction
 
-### Threat Hunting (4)
+### Threat Hunting (6)
 - **yara** - Pattern matching
 - **sigma-cli** - Detection-rule conversion
 - **chainsaw** - Windows event-log hunt
 - **hayabusa** - Windows event timeline
+- **Zircolite** - Fast SIGMA-based detection on Windows event logs
+- **evtx_dump** - Windows event log parser and exporter
 
 ### Network Defense (3)
 - **suricata** - IDS replay on pcap

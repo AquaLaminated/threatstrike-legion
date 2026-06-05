@@ -5,10 +5,10 @@
 ![ThreatStrike Legion - engagement overview](./gallery/01-overview.png)
 
 Every tool you'd reach for on a Kali box, sitting in a real window with every
-flag exposed as a field. `nmap`, `ffuf`, `hydra`, `evil-winrm`, `impacket`,
-`volatility3`, 66 more. Run them by hand the way you always have, or hand an
-objective to the built-in AI agent and let it drive. Same binaries either way.
-Same flags. Same output. Just no terminal.
+flag exposed as a field. `nmap`, `ffuf`, `metasploit`, `trufflehog`,
+`CloudFox`, `impacket`, `volatility3`, 79 more. Run them by hand the way you
+always have, or hand an objective to the built-in AI agent and let it drive.
+Same binaries either way. Same flags. Same output. Just no terminal.
 
 > 🌐 **Website:** https://www.threatstrike.ai
 > 💳 **Get the app:** https://www.threatstrike.ai/pricing
@@ -25,25 +25,28 @@ nowhere else.
 
 ## What's in it
 
-- **A GUI for the Kali toolset.** 72 tools so far ([full list](./TOOLS.md)),
+- **A GUI for the Kali toolset.** 86 tools across 15 categories ([full list](./TOOLS.md)),
   each one a real form with the real flags exposed. Bundled wordlists,
   interface dropdowns, file pickers, the works.
 - **An optional AI agent.** Type the objective in plain English; the agent
-  drives the same forms autonomously. Recently solved a TryHackMe-style box
-  recon-to-root in 15 minutes, unattended.
+  drives the same forms autonomously, with interactive chat so you can ask
+  follow-up questions about any output. Switch models on the fly from the
+  agent, chat, and tool-output panels.
 - **An engagement knowledge graph.** Every host, service, credential, vuln,
   web path, and screenshot lives in one typed SQLite tree. Severity colors,
   click-to-reveal vault, embedded evidence.
-- **A credential vault.** Every secret goes to your OS keychain (Keychain on
-  macOS, Secret Service on Linux). The credential-aware tool forms get a
-  one-click vault picker. No more `creds.txt` on the desktop.
+- **A credential vault.** Every secret is stored in a local file
+  (`~/.strikedeck/license.json`, owner-only permissions). The credential-aware
+  tool forms get a one-click vault picker. No more `creds.txt` on the desktop.
 - **A report builder.** AI drafts the exec summary + per-vuln remediation +
   conclusion. Renders a polished HTML page or PDF (via WeasyPrint) with your
   screenshots embedded and credentials redacted.
 - **Red team and blue team.** One toggle in the header flips the entire UI.
   Blue side ships defensive tools (Volatility3, YARA, Sigma, Chainsaw,
-  Suricata, capa, floss) and an Analyst agent tuned for DFIR, hunting, and
-  detection engineering.
+  Suricata, Zircolite, capa, floss) and an Analyst agent tuned for DFIR,
+  hunting, and detection engineering.
+- **Cloud attack surface.** A new Cloud category ships CloudFox, Prowler, and
+  ScoutSuite for AWS / Azure / GCP enumeration and misconfiguration auditing.
 - **Bring your own AI.** Claude (CLI subscription or API key), OpenAI,
   Gemini, or any local OpenAI-compatible endpoint (Ollama, LM Studio,
   vLLM, llama.cpp).
@@ -68,7 +71,7 @@ nowhere else.
 
 ## Status
 
-v0.2.0 is live. macOS and Linux installers are on the [releases page](https://github.com/AquaLaminated/threatstrike-legion/releases/latest), and the in-app updater ships new versions from there automatically.
+v0.3.1 is live. macOS and Linux installers are on the [releases page](https://github.com/AquaLaminated/threatstrike-legion/releases/latest), and the in-app updater ships new versions from there automatically.
 
 ## Reporting bugs / requesting features
 
