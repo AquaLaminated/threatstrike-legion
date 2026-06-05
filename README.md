@@ -12,7 +12,7 @@ to the built-in AI agent and let it drive. Same binaries either way. Same
 flags. Same output. Just no terminal.
 
 > 🌐 **Website:** https://www.threatstrike.ai
-> 💳 **Get the app:** https://www.threatstrike.ai/pricing
+> 💳 **Get the app:** https://www.threatstrike.ai/pricing.html
 > 📧 **Contact:** security@threatstrike.ai
 
 ---
@@ -56,7 +56,7 @@ nowhere else.
 
 ## Get it
 
-- **Download free (3-day trial):** [www.threatstrike.ai/pricing](https://www.threatstrike.ai/pricing), or grab the [latest release](https://github.com/AquaLaminated/threatstrike-legion/releases/latest) directly (macOS Apple Silicon + Intel, Linux `.deb` / `.AppImage` / `.rpm`).
+- **Download free (3-day trial):** [www.threatstrike.ai/pricing.html](https://www.threatstrike.ai/pricing.html), or grab the [latest release](https://github.com/AquaLaminated/threatstrike-legion/releases/latest) directly (macOS Apple Silicon + Intel, Linux `.deb` / `.AppImage` / `.rpm`).
 - **Buy a license:** All plans are annual. Pay by card (Visa, Mastercard, Amex, Apple Pay, Google Pay) or crypto (BTC, XMR, LTC, ETH). Your key is emailed instantly.
   - **Personal** -- $99.99/year -- non-commercial use, up to 3 devices
   - **Consultant** -- $499.99/year -- paid client engagements, up to 3 devices
