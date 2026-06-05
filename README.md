@@ -6,9 +6,10 @@
 
 Every tool you'd reach for on a Kali box, sitting in a real window with every
 flag exposed as a field. `nmap`, `ffuf`, `metasploit`, `trufflehog`,
-`CloudFox`, `impacket`, `volatility3`, 79 more. Run them by hand the way you
-always have, or hand an objective to the built-in AI agent and let it drive.
-Same binaries either way. Same flags. Same output. Just no terminal.
+`CloudFox`, `impacket`, `volatility3`, and 79 more (86 total: 69 offensive,
+17 defensive). Run them by hand the way you always have, or hand an objective
+to the built-in AI agent and let it drive. Same binaries either way. Same
+flags. Same output. Just no terminal.
 
 > 🌐 **Website:** https://www.threatstrike.ai
 > 💳 **Get the app:** https://www.threatstrike.ai/pricing
@@ -25,7 +26,7 @@ nowhere else.
 
 ## What's in it
 
-- **A GUI for the Kali toolset.** 86 tools across 15 categories ([full list](./TOOLS.md)),
+- **A GUI for the Kali toolset.** 86 tools across 15 categories ([full list](./TOOLS.md), 69 offensive, 17 defensive),
   each one a real form with the real flags exposed. Bundled wordlists,
   interface dropdowns, file pickers, the works.
 - **An optional AI agent.** Type the objective in plain English; the agent
@@ -56,8 +57,11 @@ nowhere else.
 ## Get it
 
 - **Download free (3-day trial):** [www.threatstrike.ai/pricing](https://www.threatstrike.ai/pricing), or grab the [latest release](https://github.com/AquaLaminated/threatstrike-legion/releases/latest) directly (macOS Apple Silicon + Intel, Linux `.deb` / `.AppImage` / `.rpm`).
-- **Buy a license:** $79.99 one-time, by card (Visa, Mastercard, Amex, Discover, Apple Pay, Google Pay) or crypto (BTC, XMR, LTC, ETH). Your key is emailed instantly and activates on up to 3 devices.
-- No subscription, no accounts, no telemetry. The engagement data never leaves your machine.
+- **Buy a license:** All plans are annual. Pay by card (Visa, Mastercard, Amex, Apple Pay, Google Pay) or crypto (BTC, XMR, LTC, ETH). Your key is emailed instantly.
+  - **Personal** -- $99.99/year -- non-commercial use, up to 3 devices
+  - **Consultant** -- $499.99/year -- paid client engagements, up to 3 devices
+  - **Team** -- $1,999/year -- paid client engagements, up to 10 devices
+- No accounts, no telemetry. The engagement data never leaves your machine.
 
 ## Requirements
 
@@ -71,7 +75,7 @@ nowhere else.
 
 ## Status
 
-v0.3.1 is live. macOS and Linux installers are on the [releases page](https://github.com/AquaLaminated/threatstrike-legion/releases/latest), and the in-app updater ships new versions from there automatically.
+v0.4.0 is live. macOS and Linux installers are on the [releases page](https://github.com/AquaLaminated/threatstrike-legion/releases/latest), and the in-app updater ships new versions from there automatically.
 
 ## Reporting bugs / requesting features
 
