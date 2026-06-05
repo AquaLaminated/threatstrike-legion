@@ -9,7 +9,7 @@ devices you personally own and control, subject to the End User License
 Agreement (the "EULA") in EULA.md of this repository (also available at
 https://www.threatstrike.ai/eula.html).
 
-AI FEATURES: The Software supports four AI engine modes — Claude (via
+AI FEATURES: The Software supports four AI engine modes: Claude (via
 the Claude Code CLI or an Anthropic API key), OpenAI / ChatGPT, Google
 Gemini, and any local OpenAI-compatible endpoint (Ollama, LM Studio,
 vLLM, llama.cpp). When you select a cloud provider, your engagement

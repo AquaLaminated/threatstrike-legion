@@ -21,7 +21,7 @@ in-app Tool Status page.
 - **metagoofil** - Document metadata harvester
 - **wafw00f** - WAF fingerprinting
 
-### Web Recon (13)
+### Web Recon (12)
 - **httpx** - Fast HTTP probing
 - **katana** - Web crawler
 - **gau** - Historical URL fetch (getallurls)
@@ -34,10 +34,11 @@ in-app Tool Status page.
 - **dnsx** - DNS toolkit (resolve, brute, wildcard filtering)
 - **gowitness** - Web screenshot and reporting
 - **kiterunner** - API route discovery and content scanning
-- **XSStrike** - Advanced XSS detection and exploitation
 
-### Vuln Scanning (11)
+### Vuln Scanning (12)
 - **nuclei** - Template-based vulnerability scanner
+- **XSStrike** - Advanced XSS detection and exploitation
+- **trufflehog** - Secrets scanning across git history and filesystems
 - **sqlmap** - SQL injection
 - **dalfox** - XSS scanner
 - **commix** - Command injection
@@ -46,7 +47,6 @@ in-app Tool Status page.
 - **jwt_tool** - Analyze, tamper, forge and crack JWTs
 - **trivy** - CVE / misconfig / secret scanner
 - **gitleaks** - Hardcoded-secret detection
-- **trufflehog** - Secrets scanning across git history and filesystems
 - **searchsploit** - Exploit-DB search
 
 ### Network (7)

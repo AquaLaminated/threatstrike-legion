@@ -1,6 +1,7 @@
 # ThreatStrike Legion - End User License Agreement
 
-**Effective date:** 2026-05-26
+**Effective date:** May 26, 2026
+**Last updated:** June 5, 2026
 **Licensor:** ThreatStrike ("Licensor")
 **Software:** ThreatStrike Legion and any updates, patches, documentation, and
 related materials ("Software")
@@ -11,12 +12,67 @@ DO NOT INSTALL OR USE THE SOFTWARE.
 
 ## 1. Grant of License
 
-Subject to your compliance with this Agreement and payment of any applicable
-fees, Licensor grants you a limited, non-exclusive, non-transferable,
-non-sublicensable, revocable license to install and use one (1) copy of the
-Software on devices you personally own and control, solely for your own
-internal use, for the term you have paid for (perpetual unless otherwise
-specified at the time of purchase).
+The Software is licensed, not sold, and is made available under one of four
+license types that you activate inside the Software. Subject to your compliance
+with this Agreement, Licensor grants you a limited, non-exclusive,
+non-transferable, non-sublicensable, revocable license to install and use the
+Software solely for your own internal use on devices you personally own and
+control, as follows:
+
+- **Free Trial.** When you activate a trial, Licensor grants you the license
+  described above to use the full Software for an evaluation period of three
+  (3) days from activation. One trial is available per device, and no payment
+  information is required to begin. When the trial period ends, the Software
+  stops functioning until you purchase and activate a paid license.
+
+- **Personal License ($99.99/year).** An annual license for non-commercial use
+  only. Permitted uses include personal labs, Capture-the-Flag competitions,
+  self-directed learning, and personal security research. A Personal license
+  key may be active on up to three (3) devices you personally own and control.
+  This license is valid for one (1) year from the date of purchase and must be
+  renewed annually to continue use. **Non-commercial restriction:** a Personal
+  license may not be used for paid client engagements, consulting or contract
+  security work, bug bounty programs where compensation is received, Managed
+  Security Service Provider (MSSP/MSP) services, internal corporate assessments
+  conducted on behalf of an employer or client, or the generation of
+  client-deliverable reports for compensation. Any of those uses requires a
+  Consultant or Team license.
+
+- **Consultant License ($499.99/year).** An annual license for individual
+  commercial practitioners. Permitted uses include all Personal-license uses
+  plus paid client engagements, solo consulting and contract security work, bug
+  bounty programs, and client-ready reporting. A Consultant license key may be
+  active on up to three (3) devices you personally own and control. This
+  license is valid for one (1) year from the date of purchase and must be
+  renewed annually to continue use.
+
+- **Team License ($1,999/year).** An annual license for teams and
+  organizations. Permitted uses include all Consultant-license uses plus
+  multi-seat deployment, MSSP/MSP engagements, and internal corporate security
+  assessments. A Team license key may be active on up to ten (10) devices
+  within your organization. This license is valid for one (1) year from the
+  date of purchase and must be renewed annually to continue use.
+
+You may release ("deactivate") a device from within the Software to free that
+activation for use on a different device. Licensor may issue updated seat
+counts or license terms in future versions; the terms in effect at the time of
+your purchase govern your license.
+
+**Activation and validation.** The Software requires a valid license key, and
+it activates and periodically re-validates your license with Licensor's
+licensing service. For licensing purposes only, the Software transmits your
+license key and a device identifier ("machine ID"); it does not transmit your
+engagement data, credentials, targets, scans, or findings for licensing. You
+will not circumvent, disable, tamper with, or attempt to defeat the Software's
+licensing, activation, device-limit, or validation mechanisms, and you will not
+use a license key you are not authorized to use. Licensor may suspend or revoke
+any license that is shared beyond its permitted device count, obtained
+fraudulently, charged back, or otherwise used in breach of this Agreement.
+
+**Payments.** Paid licenses are sold through Licensor's third-party payment
+processors (Stripe for card payments and NOWPayments for cryptocurrency), whose
+checkout, billing, and refund terms apply to your purchase in addition to this
+Agreement.
 
 ## 2. Restrictions
 
@@ -52,6 +108,11 @@ and warrant, on each occasion you use the Software, that:
     target operates;
 (c) you are at least 18 years old (or the age of majority where you live)
     and have the legal capacity to enter into this Agreement.
+
+**You assume all risk.** Misuse of the Software may violate computer-fraud,
+anti-hacking, wiretap, and export laws and may carry civil and criminal
+penalties. Licensor has no ability to verify what you do with the Software and
+disclaims all liability for any unauthorized, illegal, or unethical use.
 
 Some categories of tooling bundled with or invoked by the Software carry
 additional category-specific legal risk that you acknowledge and accept
@@ -193,12 +254,21 @@ third party in connection with your use of the Software.
 ## 10. Term and termination
 
 This Agreement is effective on the date you first install or use the
-Software and continues until terminated. Your rights under this
-Agreement will terminate automatically and without notice if you
-materially breach any of its terms. Upon termination, you must
+Software and continues until terminated. License durations are as follows:
+
+- A **Free Trial** license terminates automatically when its three-day
+  evaluation period ends.
+- A **Personal**, **Consultant**, or **Team** license expires one (1) year
+  from the date of purchase. Upon expiration, the Software will stop
+  functioning until a renewed license key is activated. Expiry is not
+  termination for breach; you may renew at any time to restore access.
+
+Your rights under this Agreement will also terminate automatically and
+without notice if you materially breach any of its terms, including using
+a Personal license for commercial purposes. Upon termination, you must
 immediately cease all use of the Software and destroy or delete all
 copies in your possession or control. Sections 2, 4, 7, 8, 9, 11, and
-12–14 survive termination.
+12-14 survive termination.
 
 ## 11. Export controls and sanctions
 
