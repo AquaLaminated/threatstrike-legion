@@ -5,7 +5,7 @@
 ![ThreatStrike Legion - engagement overview](./gallery/01-overview.png)
 
 Every tool you'd reach for on a Kali box, sitting in a real window with every
-flag exposed as a field. `nmap`, `ffuf`, `metasploit`, `trufflehog`,
+tool now able to be ran in a GUI. `nmap`, `ffuf`, `metasploit`, `trufflehog`,
 `CloudFox`, `impacket`, `volatility3`, and 79 more (86 total: 69 offensive,
 17 defensive). Run them by hand the way you always have, or hand an objective
 to the built-in AI agent and let it drive. Same binaries either way. Same
