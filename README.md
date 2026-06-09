@@ -75,7 +75,7 @@ nowhere else.
 
 ## Status
 
-v0.6.0 is live. macOS and Linux installers are on the [releases page](https://github.com/AquaLaminated/threatstrike-legion/releases/latest), and the in-app updater ships new versions from there automatically.
+v0.6.1 is live. macOS and Linux installers are on the [releases page](https://github.com/AquaLaminated/threatstrike-legion/releases/latest), and the in-app updater ships new versions from there automatically.
 
 ## Reporting bugs / requesting features
 
