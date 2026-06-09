@@ -11,6 +11,7 @@ tool now able to be ran in a GUI. `nmap`, `ffuf`, `metasploit`, `trufflehog`,
 to the built-in AI agent and let it drive. Same binaries either way. Same
 flags. Same output. Just no terminal.
 
+> 🎬 **Walkthrough:** https://youtu.be/SFwSC3J0OYM
 > 🌐 **Website:** https://www.threatstrike.ai
 > 💳 **Get the app:** https://www.threatstrike.ai/pricing.html
 > 📧 **Contact:** security@threatstrike.ai
