@@ -100,4 +100,4 @@ anti-hacking, wiretap, and export laws in many jurisdictions.
 
 ---
 
-© 2026 ThreatStrike. All rights reserved.
+© 2026 ThreatStrike LLC. All rights reserved.

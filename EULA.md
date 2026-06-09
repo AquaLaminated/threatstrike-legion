@@ -2,7 +2,7 @@
 
 **Effective date:** May 26, 2026
 **Last updated:** June 5, 2026
-**Licensor:** ThreatStrike ("Licensor")
+**Licensor:** ThreatStrike LLC ("Licensor")
 **Software:** ThreatStrike Legion and any updates, patches, documentation, and
 related materials ("Software")
 
